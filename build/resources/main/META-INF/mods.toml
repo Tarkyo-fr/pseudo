@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved - MineNorthRP"
+[[mods]]
+modId="minenorthpseudo"
+version="1.0.0"
+displayName="MineNorth Pseudo"
+authors="MineNorth RP"
+description='''Masque les pseudos au-dessus des joueurs ; le staff en mode staff voit les noms RP.'''
+[[dependencies.minenorthpseudo]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.minenorthpseudo]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.minenorthpseudo]]
+modId="minenorthapi"
+mandatory=true
+versionRange="[1.0.0,2)"
+ordering="AFTER"
+side="BOTH"
